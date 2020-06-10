@@ -8,18 +8,10 @@ $(document).ready(function() {
     
   });
 
-
-
-$("img[attr = `Santa-Claus`]").on("click", function(){
-
-.css()
-
-}
-
-
-
-
-)
+//$("img[alt = 'Santa-Claus']").on("click", (function() {
+	$("img:nth-child(2)").on("click", (function() {
+        $(this).hide()
+    }));
 
 
 });
