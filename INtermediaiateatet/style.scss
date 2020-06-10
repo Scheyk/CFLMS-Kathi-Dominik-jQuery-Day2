@@ -1,0 +1,35 @@
+.wrapper {
+}
+
+.reihe {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+.conten {
+    width: 40%;
+    border: 1px solid blue;
+    display: flex;
+    //flex-direction: column;
+    justify-content: space-between;
+
+    .bild {
+        display: flex;
+        // align-items: center;
+        width: 50%;
+        border: red 4px solid;
+        min-height: 100%;
+        img {
+            width: 100%;
+
+            align-self: center;
+        }
+    }
+    .text {
+        width: 50%;
+        border: green 4px solid;
+        min-height: 100%;
+    }
+}
