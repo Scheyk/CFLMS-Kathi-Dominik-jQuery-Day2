@@ -1,11 +1,25 @@
-$(document).ready(function(){
 
 
-/*$("img.bell").click(function()
-  alert("it works!");
- });*/
+$(document).ready(function() {
+  $('img').on("click", function () {
+      var alt = $(this).attr("alt") // Attribut alt wird in der Variable gepseichert
+      $("#result").text(alt) // ergebnis wird im result div ausgeben
+      
+    
+  });
 
-var bell = $("img").attr("alt");
-console.log(bell);
+
+
+$("img[attr = `Santa-Claus`]").on("click", function(){
+
+.css()
+
+}
+
+
+
+
+)
+
 
 });
